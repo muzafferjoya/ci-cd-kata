@@ -19,7 +19,7 @@ pipeline {
                 // sh './gradlew  build --no-daemon'
                 sh './gradlew build'
                 sh './gradlew test'
-                // sh './gradlew run'
+                sh './gradlew run'
                 
             }
         }
